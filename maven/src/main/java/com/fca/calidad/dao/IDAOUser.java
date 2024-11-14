@@ -18,6 +18,12 @@ public interface IDAOUser {
 	boolean deleteById(int id);
 
 	User updateUser(User userOld);
+
+	void deleteUser(int anyInt);
+
+	Object addUser(User any);
+
+	Object createUser(User any);
 	
 
 

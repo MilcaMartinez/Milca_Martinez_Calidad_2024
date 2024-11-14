@@ -57,4 +57,14 @@ public User findUserById(int id) {
     	return dao.deleteById(id);
     }
 
+	public User addUser(User usuarioNuevo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public User createUser(User usuarioNuevo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
